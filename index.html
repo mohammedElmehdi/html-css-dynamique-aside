@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mohammedElMehdi" />
+    <title>Dynamique Aside</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main>
+        <aside>
+            <div class="icon" onclick="changeAside();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="content" id="aisde">
+                <button onclick="changeOp('content1')">link-1</button>
+                <button onclick="changeOp('content2')">link-2</button>
+                <button onclick="changeOp('content3')">link-3</button>
+                <button onclick="changeOp('content4')">link-4</button>
+                <button onclick="changeOp('content5')">link-5</button>
+                <button onclick="changeOp('content6')">link-6</button>
+                <button onclick="changeOp('content7')">link-7</button>
+            </div>
+        </aside>
+        <div class="container">
+            <div class="search">
+                <form action="mehdi.php" method="post">
+                    <input type="search" name="query" placeholder="saerch..." />
+                    <input type="submit" value="search" />
+                </form>
+            </div>
+            <div class="contents">
+                <div class="item content1">
+
+                </div>
+                <div class="item content2">
+
+                </div>
+                <div class="item content3">
+
+                </div>
+                <div class="item content4">
+
+                </div>
+                <div class="item content5">
+
+                </div>
+                <div class="item content6">
+
+                </div>
+                <div class="item content7">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">aboute</a></li>
+            <li><a href="#">team</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">projects</a></li>
+        </ul>
+        <p>
+            copyWrite &copy; | CreatedBy:
+            <a href="https://github.com/mohammedElmehdi" target="_blank">mohammedElMehdi</a>
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
